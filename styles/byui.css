@@ -1,0 +1,66 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+}
+This does a little reset around all the web page */
+
+/* everything between the curly braces are declarations, each declaration needs to be followed by a semi-colon */
+
+nav, footer {
+    background-color: steelblue;
+    padding: 10px;
+    text-align: center;
+    /* text-align: center centers the content of the element*/
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+nav a {
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+/* CSS Selector: descendent, only the a within the nave will be targeted */
+
+h1 {
+    color: steelblue;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    /* border: 4px solid steelblue */
+    /* border is a shortcut that allows 3 values to be input at once */
+    display: block;
+    margin: 0 auto;
+    /* centers container and not just content */
+}
+
+
+p {
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 50px;
+}
+
+.main-para {
+/* the . differentiates as a class */
+    font-size: 1.5em;
+}
+
+
+#active {
+/* the # differentiates as an id */
+    background-color: white;
+    color: steelblue;
+}
+
+footer p {
+    font-size: 20px;
+}
