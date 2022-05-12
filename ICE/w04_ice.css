@@ -1,0 +1,34 @@
+body {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+h1, h2, .quote, #title {
+    text-align: center;
+    max-width: 275px;
+}
+
+h1{
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#list {
+    color: black;
+    max-width: 275px;
+}
+
+.quote {
+    color: white;
+}
