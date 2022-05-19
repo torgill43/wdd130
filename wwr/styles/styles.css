@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
 /* colors
 #214c00 - green
 #2B3A67 - blue
@@ -6,6 +8,10 @@
 
 body {
     background-color: #D6D6D6;
+    font-family: "PT Sans", Roboto, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -25,6 +31,7 @@ nav a {
     text-align: center;
     color: #2B3A67;
     text-decoration: none;
+    padding: 15px 25px;
 }
 
 nav a:hover {
@@ -32,13 +39,25 @@ nav a:hover {
     color: #D6D6D6;
 }
 
+.logo {
+    border-radius: 50%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 #hero-img {
     width: 100%;
+    margin-top: 20px;
 }
 
 .home-title {
     text-align: center;
     color: #214c00;
+    font-family: "Rock Salt", "Bradley Hand", cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -53,6 +72,10 @@ h4 {
     background-color: #2B3A67;
     color: #D6D6D6;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -68,6 +91,22 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+}
+
+.rivers-card .camping-card .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 #background{
     height: 725px;
     background-color: #2B3A67;
@@ -75,25 +114,34 @@ main section {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .msg {
     background-color: #D6D6D6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #214c00;
+    font-family: "Rock Salt", "Bradley Hand", cursive;
 }
 .msg p {
     color: #2B3A67;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #FF9A5C;
+    padding: 25px 45px;
+    margin-top: 200px;
 }
 
 footer h3, footer h3 a {
     color: #D6D6D6;
+    font-size: .8em;
 }
 
 footer h3 a:hover {
@@ -103,8 +151,12 @@ footer h3 a:hover {
 footer a {
     color: #FF9A5C;
     text-decoration: none;
-}
+    }
 footer a:hover {
     background-color: #D6D6D6;
     color: #2B3A67; 
+}
+
+footer .social img {
+    padding-top: 15px;
 }
