@@ -218,15 +218,19 @@ footer h3, footer h3 a {
 
 footer h3 a:hover {
     text-decoration: underline;
+    background-color: #D6D6D6;
+    color: #2B3A67; 
+    padding: 5px;
+    border-radius: 5px;
 }
 
 footer a {
     color: #FF9A5C;
     text-decoration: none;
     }
+
 footer a:hover {
-    background-color: #D6D6D6;
-    color: #2B3A67; 
+    opacity: .8;
 }
 
 footer .social img {
