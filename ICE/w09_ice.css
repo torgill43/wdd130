@@ -1,0 +1,40 @@
+body {
+    max-width: 500px;
+    text-align: center;
+    background-color: black;
+}
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%
+}
+
+h3 {
+    color: royalblue;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    padding: 15px 15px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    background-color: lightblue;
+}
+
+#views {
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
