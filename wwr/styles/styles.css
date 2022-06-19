@@ -237,6 +237,84 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* CSS for Rivers Page */
+
+.rivers-grid {
+    background-color: #214c00;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.rivers-title {
+    font-family: "Rock Salt", "Bradley Hand", cursive;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 20px;
+}
+
+.idaho-river, .utah-river, .arizona-river {
+    background-color: #6f7364;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+/* .river-img {
+    grid-column: 1/3;
+} */
+
+.idaho-river {
+    grid-column: 1/6;
+    grid-row: 2/6;
+}
+
+#idaho-river-img {
+    grid-column: 1/3;
+    grid-row:2/6;
+    border: 2px solid #FF9A5C;
+    /* padding: 5px; */
+}
+
+#idaho-info {
+    grid-column: 3/6;
+    grid-row: 2/6;
+}
+
+.utah-river {
+    grid-column: 1/6;
+    grid-row: 6/10;
+}
+
+#utah-river-img {
+    grid-column: 1/3;
+    grid-row: 6/10;
+    border: 2px solid #FF9A5C;
+    /* padding: 5px; */
+}
+
+#utah-info {
+    grid-column: 3/6;
+    grid-row: 6/10;
+}
+
+.arizona-river {
+    grid-column: 1/6;
+    grid-row: 10/14;
+}
+
+#arizona-river-img {
+    grid-column: 1/3;
+    grid-row: 10/14;
+    border: 2px solid #FF9A5C;
+    /* padding: 5px; */
+}
+
+#arizona-info {
+    grid-column: 3/6;
+    grid-row: 10/14;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
