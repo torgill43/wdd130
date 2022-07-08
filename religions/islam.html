@@ -5,49 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Religions | Islam</title>
+    <link href="styles/styles.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <a id="logo-link", href="index.html">
-            <img class="logo" src="images/personal_site_logo.png" alt="Site Logo">
+<body id="content">
+    <header class="header">
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/personal_site_logo1.png" alt="Site Logo">
         </a>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="islam.html">Islam</a>
-            <a href="shinto.html">Shinto</a>
+            <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="islam.html">Islam</a>
+                <a href="shinto.html">Shinto</a>
+            </div> 
+            </div> 
         </nav>
     </header>
     <main id="islam-content">
         <h1>Islam</h1>
-        <section>
+        <!-- <section> -->
             <div id="islam-history"> <!-- Brief History -->
-                <img src="images/islam_symbol.jpg" alt="Symbol of Islam">
-                <p> <!-- add "brief history" as a small title above content? help it stand out -->
-                    Brief History: Islam began around 600 BC when Muhammad was visited by angel Gabriel. This was when he was commissioned to "Proclaim... in the name of the Lord". A commonly-known practice that Muslims pray 5 times a day. This comes from Muhammad's "Night Journey" to Mt. Hira (near Mecca). In the presence of Allah, Muhammad was initially commanded to have Muslims pray 50 times a day. After pleading, this was graciously reduced to 5 times per day.
+                <img src="images/islam_symbol.jpg" alt="Symbol of Islam" class="history-img">
+                <p class="history-description"> <!-- add "brief history" as a small title above content? help it stand out -->
+                    Brief History: <br>Islam began around 600 BC when Muhammad was visited by angel Gabriel. This was when he was commissioned to "Proclaim... in the name of the Lord". A commonly-known practice that Muslims pray 5 times a day. This comes from Muhammad's "Night Journey" to Mt. Hira (near Mecca). In the presence of Allah, Muhammad was initially commanded to have Muslims pray 50 times a day. After pleading, this was graciously reduced to 5 times per day.
                 </p>
             </div>
             <div id="islam-exp"> <!-- My Experience -->
-                <img src="images/islam_mosque.jpg" alt="Islam Mosque">
-                <p> <!-- add "my experience" as a small title above content? -->
-                    My Experience: I love that the Muslim beliefs are so clear and are practiced similarly throughout the world. One thing that stood out to me the most is their passion for scripture. It is seen all over their communities - in government offices, markets, taxis, and more.
+                <img src="images/islam_mosque.jpg" alt="Islam Mosque" class="exp-img">
+                <p class="exp-description"> <!-- add "my experience" as a small title above content? -->
+                    My Experience: <br>I love that the Muslim beliefs are so clear and are practiced similarly throughout the world. One thing that stood out to me the most is their passion for scripture. It is seen all over their communities - in government offices, markets, taxis, and more.
                 </p>
             </div>
             <div id="islam-beauty"> <!-- Beauty, Divinity, Holy Envy -->
-                <img src="images/islam_quran.jpg" alt="Qur'an">
-                <p>
-                    Beauty: Women in their culture/religion enjoy many more rights and freedoms than do women in many other religions.
+                <img src="images/islam_quran.jpg" alt="Qur'an" class="beauty-img">
+                <p class="beauty-description" id="beauty1">
+                    Beauty: <br>Women in their culture/religion enjoy many more rights and freedoms than do women in many other religions.
                 </p>
-                <p>
-                    Divinity (inspired of God): They go to great lengths to make sure people are taken care of. Acts of charity need not be complicated or extravagant.
+                <p class="beauty-description" id="beauty2">
+                    Divinity (inspired of God): <br>They go to great lengths to make sure people are taken care of. Acts of charity need not be complicated or extravagant.
                 </p>
-                <p>
-                    Holy Envy: I admire their devotion to memorizing scripture, fasting, and prayer.
+                <p class="beauty-description" id="beauty3">
+                    Holy Envy: <br>I admire their devotion to memorizing scripture, fasting, and prayer.
                 </p>
             </div>
-        </section>
+        <!-- </section> -->
     </main>
     <footer>
-        <h3>World Religions &copy Tim Orgill - 2022</h3>
+        <h3>World Religions &copy; Tim Orgill - 2022</h3>
         <h3><a href="site-plan.html" target="_blank">Siteplan</a></h3>
     </footer>
 </body>

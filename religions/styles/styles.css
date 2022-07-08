@@ -11,12 +11,14 @@ header {
     background-color: white;
     /* display: grid;
     grid-template-columns: 150px auto; */
+    /* border-top-left-radius: 105px;
+    border-bottom-left-radius: 105px; */
 }
 
-/* #logo-link {
-    border-radius: 50%;
-    border: 0
-} */
+.header {
+    border-top-left-radius: 105px;
+    border-bottom-left-radius: 105px;
+}
 
 .logo {
     width: 200px;
@@ -153,6 +155,7 @@ nav a {
     color: #DB7E06;
     background-color: #d0d0ce;
     border-radius: 5px;
+    font-family: "Cormorant Garamond";
 }
 
 #welcome-msg h2 {
@@ -189,14 +192,14 @@ nav a {
     border-radius: 10%;
 }
 
-#islam-img {
+#islam-logo {
     width: 100%;
     text-align: center;
     overflow: hidden;
     border-radius: 10%;
 }
 
-#shinto-img {
+#shinto-logo {
     width: 100%;
     /* height: 100%; */
     overflow: hidden;
@@ -215,6 +218,7 @@ padding-top: 15px;
 .button-link {
     text-decoration: none;
     color: #FFFDED;
+    padding: 10px;
 }
 
 #islam-button {
@@ -255,8 +259,136 @@ footer a {
     /* align-items: center; */
     padding-right: 50px;
     text-decoration: none;
+    color: black;
 }
 
 footer a:hover {
     color: #DB7E06;
 }
+
+/* css for Islam page */
+
+#islam-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px repeat(3, 1fr);
+    /* background-color: #FFFDED; */
+    margin: 25px auto 100px auto;
+    padding: 25px;
+    gap: 50px;
+}
+
+#islam-content h1 {
+    grid-column-start: 1;
+    color: #FFFDED;
+    font-family: "Nothing You Could Do";
+    font-size: 75pt;
+    padding-top: 50px;
+}
+
+#islam-history {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 50px;
+    align-items: center;
+    /* background-color: #FFFDED; */
+}
+
+#islam-exp {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 50px;
+    align-items: center;
+    /* background-color: #FFFDED; */
+}
+
+#islam-beauty {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 50px;
+    align-items: center;
+    /* background-color: #FFFDED; */
+}
+
+.history-img {
+    grid-column: 1/2;
+    width: 50%;
+    justify-self: right;
+    background-color: #FFFDED;
+    border-radius: 25pt;;
+}
+
+.history-description {
+    grid-column: 2/3;
+    background-color: #FFFDED;
+    font-size: 20pt;
+    padding: 50px;
+    border-radius: 25pt;
+    font-family: "Cormorant Garamond", "Times New Roman", serif;
+    font-weight: 600;
+}
+
+.exp-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    background-color: #FFFDED;
+    border-radius: 25pt;;
+}
+
+.exp-description {
+    grid-column: 1/2;
+    background-color: #FFFDED;
+    font-size: 20pt;
+    padding: 50px;
+    border-radius: 25pt;
+    font-family: "Cormorant Garamond", "Times New Roman", serif;
+    font-weight: 600;
+}
+
+.beauty-img {
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/4; 
+    justify-self: right;
+    background-color: #FFFDED;
+    border-radius: 25pt;;
+}
+
+.beauty-description {
+    grid-column: 2/3;
+    background-color: #FFFDED;
+    font-size: 20pt;
+    padding: 50px;
+    margin: 0;   
+    border-radius: 25pt;
+    font-family: "Cormorant Garamond", "Times New Roman", serif;
+    font-weight: 600;
+}
+
+#beauty1 {
+    /* padding-bottom: 0; */
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#beauty2 {
+    padding: 25px 50px;
+    border-radius: 0%;
+    z-index: 1;
+}
+
+#beauty3 {
+    /* padding-top: 0; */
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+/* add a media query? */
