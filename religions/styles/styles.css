@@ -276,7 +276,7 @@ footer a:hover {
     /* background-color: #FFFDED; */
     margin: 25px auto 100px auto;
     padding: 25px;
-    gap: 50px;
+    gap: 0 50px;
 }
 
 #islam-content h1 {
