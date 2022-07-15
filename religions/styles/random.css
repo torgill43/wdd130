@@ -1,0 +1,64 @@
+<div id="islam-history"> <!-- Brief History -->
+                <img src="images/islam_symbol.jpg" alt="Symbol of Islam" class="history-img">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="history-description"> <!-- add "brief history" as a small title above content? help it stand out -->
+                                Brief History:</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p class="history-description">Islam began around 600 BC when Muhammad was visited by angel Gabriel. This was when he was commissioned to "Proclaim... in the name of the Lord". A commonly-known practice that Muslims pray 5 times a day. This comes from Muhammad's "Night Journey" to Mt. Hira (near Mecca). In the presence of Allah, Muhammad was initially commanded to have Muslims pray 50 times a day. After pleading, this was graciously reduced to 5 times per day.
+                                </p>
+                            </div>
+                        </p>
+                        </div>
+                    </div>  
+            </div>
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    perspective: 1000px;
+    
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    margin-bottom: 175px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    align-self: center;
+    padding: 100px 0 100px 0;
+}
+
+/* Style the front side (fallback if image is missing) */
+/* .flip-card-front {
+    background-color: #bbb;
+    color: black;
+} */
+  
+/* Style the back side */
+.flip-card-back {
+    /* background-color: dodgerblue;
+    color: white; */
+    transform: rotateY(180deg);
+}
